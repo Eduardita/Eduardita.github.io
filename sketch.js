@@ -97,7 +97,7 @@ function suelo() {
   for (var i = 350; i < height; i += 1) {
 
     strokeWeight(3);
-    stroke(0, f, 0, 150)
+    stroke(0, f, 0, 120)
     line(0, i, width, i);
     f = f + 0.5
   }
@@ -108,8 +108,8 @@ function cielo() {
   for (var e = 350; 0 < e; e--) {
 
     strokeWeight(1);
-    stroke(20, 20, c, 200);
+    stroke(0, 0, c, 170);
     line(0, e, width, e)
-    c += 0.3
+    c += 0.1
   }
 }
