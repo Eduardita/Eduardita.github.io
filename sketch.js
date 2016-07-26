@@ -2,6 +2,7 @@
 //que al ponerla en cierto lugar pase algo (no puedo)
 //que el vestido se agrande y achique con pos x de mouse
 
+//wena
 
 var largoBrazo = 180;
 var anchoBrazo = 10;
