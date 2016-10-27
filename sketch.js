@@ -41,8 +41,8 @@ function monito() {
   if (cara < 50 && mouseIsPressed) {
     xcara = mouseX;
     ycara = mouseY;
-  
-    
+
+
 
   } else {
     xcara = 400
@@ -91,23 +91,20 @@ function draw() {
 
 
 
-  //que el brazo salude ..... no logro hacer que baje luego de los 60 grados
+  //que el brazo salude 
   translate(380, 160);
-  a += 0.5
-  rotate(a);
+
+  rotate(15 + sin(a) * 50);
   arc(-40, 0, largoBrazo, anchoBrazo, 5, 355, CHORD)
 
-  if (a == 60) {
-    //  b = b + 50
-    a = a = 0
+  a += 1
 
-  }
-
-  //if (b > 250) {
-  //  b = 0
-  //}
 
 }
+
+
+
+
 
 
 // suelo
